@@ -1,0 +1,34 @@
+<header id='nav' role='banner'>
+  <div id='nav-wrapper'>
+    <a href='{{ site.baseurl }}/' id='mobile-logo'>
+      <img src='{{ site.image_prefix }}logo.png' alt='Logo'>
+    </a>
+    <i id='nav-mobile-menu' onclick='toggle("nav-menu", "show")'>MENU</i>
+    <nav role='navigation'>
+      <ul id='nav-menu'>
+        <li class='nav-link logo'>
+          <a href='{{ site.baseurl }}/' class='logo'>
+            <img src='{{ site.image_prefix }}logo.png' alt='Logo'>
+            Dfarmácias
+          </a>
+        </li>
+        <li class='nav-link'>
+          <a href='http://www.jekyll-store.com' target='_blank'>
+            Sobre
+          </a>
+        </li>
+        <li class='nav-link'>
+          <a href='{{ site.baseurl }}/favourites'>Favoritos</a>
+        </li>
+        <li class='nav-link'>
+          <a href='{{ site.baseurl }}/blog'>Blog</a>
+        </li>
+        <li class='nav-link'><a href='javascript:void(0)'>Contato</a></li>
+        <li class='nav-link'
+            id='basket-summary'
+            data-img='"{{ site.image_prefix }}cart.png"'
+            data-link='"{{ site.baseurl }}/basket"'></li>
+      </ul>
+    </nav>
+  </div>
+</header>
