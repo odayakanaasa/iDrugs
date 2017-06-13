@@ -1,2 +1,2 @@
-# Dpharma
+# iDrugs
 Ecommerce de Farmácia
