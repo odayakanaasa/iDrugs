@@ -3,8 +3,8 @@ name: Bullet
 price: 315
 weight: 4.13
 designer: Philip Notland
-type: Wood
-condition: Rough
+type: Madeira
+condition: Desgastado
 image: 'bullet-small.jpg'
 big_image: 'bullet-big.jpg'
 ---

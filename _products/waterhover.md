@@ -3,8 +3,8 @@ name: Waterhover
 price: 490
 weight: 2.53
 designer: JHåland
-type: Metallic
-condition: Worn
+type: Metálico
+condition: Usado
 image: 'waterhover-small.jpg'
 big_image: 'waterhover-big.jpg'
 ---

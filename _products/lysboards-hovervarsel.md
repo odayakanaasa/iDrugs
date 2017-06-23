@@ -3,8 +3,8 @@ name: Lysboard's Hovervarsel
 price: 290
 weight: 4.15
 designer: Jacob Lysgaard
-type: Wood
-condition: Rough
+type: Madeira
+condition: Desgastado
 image: 'lysboards-hovervarsel-small.jpg'
 big_image: 'lysboards-hovervarsel-big.jpg'
 ---

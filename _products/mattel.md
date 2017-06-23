@@ -3,8 +3,8 @@ name: Mattel
 price: 565
 weight: 2.97
 designer: John Bell
-type: Metallic
-condition: Rough
+type: Metálico
+condition: Desgastado
 image: 'mattel-small.jpg'
 big_image: 'mattel-big.jpg'
 ---

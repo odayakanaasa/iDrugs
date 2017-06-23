@@ -3,8 +3,8 @@ name: Hoverskull
 price: 330
 weight: 3.24
 designer: Jonas Bødtker
-type: Metallic
-condition: Worn
+type: Metálico
+condition: Usado
 image: 'hoverskull-small.jpg'
 big_image: 'hoverskull-big.jpg'
 ---

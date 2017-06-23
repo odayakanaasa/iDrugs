@@ -4,7 +4,7 @@ price: 345
 weight: 3.1
 designer: Helge Kirkaune
 type: Metal
-condition: Worn
+condition: Usado
 image: 'hooverboard-small.jpg'
 big_image: 'hooverboard-big.jpg'
 ---

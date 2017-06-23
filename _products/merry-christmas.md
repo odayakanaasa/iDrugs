@@ -3,8 +3,8 @@ name: Merry Christmas
 price: 380
 weight: 4.03
 designer: JHåland
-type: Wood
-condition: Worn
+type: Madeira
+condition: Usado
 image: 'merry-christmas-small.jpg'
 big_image: 'merry-christmas-big.jpg'
 ---

@@ -4,7 +4,7 @@ price: 750
 weight: 2.83
 designer: Joakim Carlsen
 type: Metal
-condition: Mint
+condition: Novo
 image: 'forward-small.jpg'
 big_image: 'forward-big.jpg'
 ---

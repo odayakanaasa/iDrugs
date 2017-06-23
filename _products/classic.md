@@ -3,8 +3,8 @@ name: Classic
 price: 575
 weight: 4.02
 designer: JHåland
-type: Wood
-condition: Mint
+type: Madeira
+condition: Novo
 image: 'classic-small.jpg'
 big_image: 'classic-big.jpg'
 ---

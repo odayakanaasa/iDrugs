@@ -3,8 +3,8 @@ name: Blue Dot
 price: 285
 weight: 3.39
 designer: Gudrun Brekke
-type: Wood
-condition: Worn
+type: Madeira
+condition: Usado
 image: 'blue-dot-small.jpg'
 big_image: 'blue-dot-big.jpg'
 ---

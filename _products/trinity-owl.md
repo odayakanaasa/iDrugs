@@ -3,8 +3,8 @@ name: Trinity Owl
 price: 350
 weight: 4.26
 designer: Håvar Legreid
-type: Wood
-condition: Worn
+type: Madeira
+condition: Usado
 image: 'trinity-owl-small.jpg'
 big_image: 'trinity-owl-big.jpg'
 ---

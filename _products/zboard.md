@@ -3,8 +3,8 @@ name: ZBoard
 price: 355
 weight: 3.98
 designer: Annette Sandøy Kristiansen
-type: Wood
-condition: Rough
+type: Madeira
+condition: Desgastado
 image: 'zboard-small.jpg'
 big_image: 'zboard-big.jpg'
 ---
