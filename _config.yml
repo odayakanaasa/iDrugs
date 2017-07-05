@@ -11,7 +11,7 @@ condition: Excelente
 
 
 # Jekll-Store Front
-image_prefix: '/iDrugs/produtos/20/'
+image_prefix: '/iDrugs/img/'
 #image_prefix: 'http://res.cloudinary.com/jekyll-store/'
 
 # http://openexchangerates.github.io/accounting.js/#documentation
