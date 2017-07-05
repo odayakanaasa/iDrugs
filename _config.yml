@@ -1,11 +1,17 @@
 title: Dfarmácias
 description: 'A lightweight, backend-free ecommerce solution.'
 baseurl: /iDrugs
+price: 20
+weight: 2
+designer: Gabriel Barros
+type: Ótimo
+condition: Excelente
+
 
 
 
 # Jekll-Store Front
-image_prefix: '/iDrugs/img/'
+image_prefix: '/iDrugs/produtos/20/'
 #image_prefix: 'http://res.cloudinary.com/jekyll-store/'
 
 # http://openexchangerates.github.io/accounting.js/#documentation
@@ -15,6 +21,8 @@ accounting:
   decimal : ','
   thousand: '.'
   precision : 2
+
+
 
 
 prose:
@@ -83,15 +91,10 @@ sass:
 collections:
   products:
     output: true
-    permalink: /:path/
+    permalink: /products/:path/
+
 defaults:
-  -
-    scope:
-      path: '' # an empty string here means all files in the project
-      type: posts # previously `post` in Jekyll 2.2.
-    values:
-      layout: post
-  -
+   -
     scope:
       path: ''
       type: products

@@ -5,14 +5,14 @@ permalink: /products.json
 [
 	{% for product in site.products %}
 		{
-			"name": "{{ product.name }}",
-			"price": {{ product.price }},
-			"weight": {{ product.weight }},
+			"name": "{{ product.title }}",
+			"price": "{{ product.price }}",
+			"weight": "{{ product.weight }}",
 			"designer": "{{ product.designer }}",
 			"type": "{{ product.type }}",
 			"condition": "{{ product.condition }}",
-			"image": "{{ product.image }}",
-			"big_image": "{{ product.big_image }}",
+			"image": "{{ product.url | replace: 'index/', 'imagem.jpg' }}",
+			"big_image": "{{ product.url | replace: 'index/', 'imagem.jpg' }}",
 			"url": "{{ product.url }}"
 		}
 		{% if forloop.last %}{% else %},{% endif %}

@@ -4,46 +4,46 @@ layout: default
 <main id='product-page'
       itemscope
       itemtype='http://schema.org/Product'
-      data-name='{{ page.name | escape }}'>
+      data-name='{{ page.title | escape }}'>
   <header>
-    <h1 itemprop='name'>{{ page.name }}</h1>
+    <h1 itemprop='name'>{{ page.title }}</h1>
     <h2 itemprop='offers' itemscope itemtype='http://schema.org/Offer'>
       <span itemprop='priceCurrency' content='GBP'>R$</span>
-      <span itemprop='price' content='{{ page.price }}'>{{ page.price }}</span>
+      <span itemprop='price' content='{{ site.price }}'>{{ site.price }}</span>
     </h2>
   </header>
   <div class='row'>
     <aside>
-      <img src='{{ site.image_prefix }}{{ page.image }}'
-           alt='{{ page.name }}'
+      <img src='{{ site.baseurl }}{{ page.url | replace: 'index/', 'imagem.jpg' }}'
+           alt='{{ page.title }}'
            itemprop='image'/>
       <table>
         <tr>
           <th>Tipo</th>
-          <td>{{ page.type }}</td>
+          <td>{{ site.type }}</td>
         </tr>
         <tr>
           <th>Condição</th>
-          <td itemprop='itemCondition'>{{ page.condition }}</td>
+          <td itemprop='itemCondition'>{{ site.condition }}</td>
         </tr>
         <tr>
           <th>Peso</th>
-          <td itemprop='weight'>{{ page.weight }}kg</td>
+          <td itemprop='weight'>{{ site.weight }}kg</td>
         </tr>
       </table>
     </aside>
     <article>
-      <img src='{{ site.image_prefix }}{{ page.big_image }}'
-           alt='{{ page.name | escape }}' />
-      <div id='addToBasket' data-name='"{{ page.name | escape }}"'></div>
+      <img src='{{ site.baseurl }}{{ page.url | replace: 'index/', 'imagem.jpg' }}'
+           alt='{{ page.title | escape }}' />
+      <div id='addToBasket' data-name='"{{ page.title | escape }}"'></div>
       <div itemprop='description' class='description'>{{ content }}</div>
     </article>
   </div>
   <div id='visited' data-begin='1' data-end='4'></div>
   <section class='yotpo yotpo-main-widget'
     data-product-id='{{ page.url }}'
-    data-name='{{ page.name }}'
+    data-name='{{ page.title }}'
     data-url='{{ site.url }}{{ site.baseurl }}{{ page.url }}'
-    data-image-url='{{ site.image_prefix }}{{ page.image }}'>
+    data-image-url='{{ site.baseurl }}{{ page.url | replace: 'index/', 'imagem.jpg' }}'>
   </section>
 </main>
