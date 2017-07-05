@@ -8,6 +8,3 @@ title: Candicort creme com 30 gramas
 **Precauções:** Utilize somente na pele, não usar por outra via de administração não recomendada, pois pode causar riscos. Uso externo. Em crianças menores de 12 anos de idade, devem ser utilizada pequenas quantidades ou conforme indicação médica. Não pode ser utilizado por períodos maiores que duas semanas.
 
 **Reações adversas:**  Ardência, coceira, ressecamento, dermatite de contato, foliculite.
-
-
-{{ page.url | replace: 'index/', 'imagem.jpg' }}
